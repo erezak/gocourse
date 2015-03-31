@@ -13,7 +13,8 @@ func main() {
 	flag.Parse()
 
 	examples := []string{"c01calculator", "c02calculator", "c03calculator",
-		"c04calculator", "c05interview", "c06interview"}
+		"c04calculator", "c05interview", "c06interview", "c07sort", "",
+		"c09pomodoro", "c10sort", "c11file", "c12tcp", "c13rest"}
 
 	var err error
 	if *example > 0 && *example <= len(examples) {
